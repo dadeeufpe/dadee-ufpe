@@ -321,79 +321,78 @@
     </div> <!-- container section2-->
   </div> <!-- container-fluid section2-->
   <!-- PARALAX 3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <div class="parallax" style="background-image: url('./assets/img/background_3.jpg');"></div>
+  <div class="parallax" style="background-image: url('./assets/img/background_4.jpg');"></div>
   <!-- PARALAX 3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <!-- MAPA, ENDEREÇO E FORM GOOGLE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- MAPA, ENDEREÇO E FORM  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <div class="container-fluid col-md-10 offset-md-1 text-center mb-3" id="section3"> <!-- container section3 contato-->
     <div id="section3" class="jumbotron myjumbotron text-left mt-3">
       <h1>Contatos</h1>
       <p>Apresentamos abaixo os canais de acesso ao DA-DEE-UFPE.</p>
     </div>
-  <div class="row justify-content-md-center">
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <!--   FORMULÁRIO GOOGLE           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!--   FORMULÁRIO          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <div class="col-md-5"> <!-- container formulário google -->
-      <div class="d-flex justify-content-center">
-        <div class="delimitformgoogle mb-3" ><!-- div delimitadora do iframe do formulário google -->
-          <!-- FORMULÁRIO DO GOOGLE -->
-          <iframe width="330" height="920" src="https://docs.google.com/forms/d/e/1FAIpQLSdpSwzuHc5rJXqzb0GYPeTWSlnpAsy9vweBPhWqMCsocaxa1w/viewform" frameborder="0" allow="" allowfullscreen></iframe>
-        </div><!-- div delimitadora do iframe do formulário google -->
+    <div class="row justify-content-center">
+      <div class="col-md-5 border border-light p-3 m-3 text-left"> <!-- formulário -->
+        <div class="form-group">
+          <form>
+            <h3 class="mb-5">Envie uma mensagem para o DA-DEE.</h3>
+            <div class="form-group mt-3">
+              <label class="ml-1" for="inputName">Nome:</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Nome completo">
+            </div>
+            <div class="form-group">
+              <label class="ml-1" for="inputEmail">Email:</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+              <label class="ml-1" for="inputSubject">Assunto:</label>
+              <input type="text" class="form-control" id="inputSubject" placeholder="Tema da mensagem">
+            </div>
+            <div class="form-group">
+              <label class="ml-1" for="inputMessage">Mensagem:</label>
+              <textarea class="form-control" id="inputMensagem" rows="10" placeholder="Digite aqui a mensagem que deseja enviar para o DADEE-UFPE."></textarea>
+            </div>
+            <div class="form-group">
+              <button type="buttonEnviar" class="btn btn-warning">Enviar</button>
+            </div>
+          </form>
+        </div> <!-- fim container formulário google -->
       </div>
-    </div> <!-- fim container formulário google -->
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <!--   MAPA E ENDEREÇO             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <div class="col-md-5"> <!-- container contendo o mapa e endereço -->
-        <div class="d-flex justify-content-center">
-          <div style="width: 315px; height: 340px;"> <!-- card (contorno) para o mapa -->
-          <div class="card"> <!-- card (contorno) para o mapa -->
-            <div class="m-3"> <!-- mapa -->
-              <!-- MAPA -->
-              <iframe class="myiframegoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.4454216606846!2d-34.95141127195327!3d-8.055964800769948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1be1686fa339%3A0xa6b8bd53c33ab50!2sDEE%20-%20Departamento%20de%20Engenharia%20El%C3%A9trica%20-%20UFPE!5e0!3m2!1spt-BR!2sbr!4v1593790492995!5m2!1spt-BR!2sbr" width="280" height="310" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div> <!-- mapa -->
-          </div>
-        </div> <!-- card (contorno) para o mapa -->
-        </div> <!-- card (contorno) para o mapa -->
-        <div class="d-flex justify-content-center text-left">
-
-          <div class="mt-3 mb-3"> <!-- endereço -->
-          <div style="width: 310px; height: 330px;"> <!-- endereço -->
-            <!-- ENDEREÇO -->        
-            <p class="text-muted fontgoogle">
-              Centro de Tecnologia e Geociências<br/>
-              Departamento de Engenharia Elétrica<br/>
-            <br/>
-            <span class="font-weight-bold">
-              Diretório Acadêmico de Engenharia Elétrica e Engenharia de Controle e Automação da Universidade Federal de Pernambuco (DA-DEE-UFPE)<br/>
-            </span>
-            <br/>
-              Av. da Arquitetura, s/n, térreo, Galpão do Depto. de Eng. Elétrica<br/>
-              Cidade Universitária, Recife, PE<br/>
-              CEP 50740-550</p>
-            <p class="text-muted fontgoogle">
-              <i class="fa fa-phone-square fa-1x" aria-hidden="true"></i>&nbsp;+55 81 9-9411-6483
-            </p>
-            <p class="text-muted fontgoogle">
-              <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>&nbsp;dadeeufpe@gmail.com
-            </p>
-            <p class="text-muted fontgoogle">
-              <a class="alert-link mybuttonlinkscontact" href="https://facebook.com/DADEEUFPE" target="_blank"><i class="fa fa-facebook-square fa-1x" aria-hidden="true">&nbsp;</i></a>https://www.facebook.com/DADEEUFPE
-            </p>
-            <p class="text-muted fontgoogle">
-              <a class="alert-link mybuttonlinkscontact" href="https://instagram.com/dadeeufpe?igshid=gomknortwbva" target="_blank"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>&nbsp;https://www.instagram.com/dadeeufpe/?igshid=gomknortwbva
-            </p>
-            <p class="text-muted fontgoogle">
-              <a class="alert-link mybuttonlinkscontact" href="https://linkedin.com/in/dadee-ufpe-b5b80919a" target="_blank"><i class="fa fa-linkedin-square fa-1x" aria-hidden="true"></i></a>&nbsp;https://www.linkedin.com/in/dadee-ufpe-b5b80919a
-            </p>
-          </div> <!-- FIM endereço -->
+      <div class="col-md-5  border border-light text-left border m-3 p-3"> <!-- mapa e endereço -->
+        <div class="form-group">
+        <div  class="z-depth-1-half map-container-5 border border-light" id="map-container-google-8" style="overflow: auto">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7900.862525731359!2d-34.9490439453123!3d-8.057415555257574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1be1686fa339%3A0xa6b8bd53c33ab50!2sDEE%20-%20Departamento%20de%20Engenharia%20El%C3%A9trica%20-%20UFPE!5e0!3m2!1spt-BR!2sbr!4v1594323788926!5m2!1spt-BR!2sbr" width="350" height="216" frameborder="4" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div> 
+        <div class="row text-left ml-2 mr-2 mt-3"> <!-- endereço -->
+          <p class="text-muted fontgoogle">
+            Centro de Tecnologia e Geociências<br/>
+            Departamento de Engenharia Elétrica<br/>
+          <br/>
+          <span class="font-weight-bold">
+            Diretório Acadêmico de Engenharia Elétrica e Engenharia de Controle e Automação da Universidade Federal de Pernambuco (DA-DEE-UFPE)<br/>
+          </span>
+          <br/>
+            Av. da Arquitetura, s/n, térreo, Galpão do Depto. de Eng. Elétrica<br/>
+            Cidade Universitária, Recife, PE<br/>
+            CEP 50740-550</p>
+          <p class="text-muted fontgoogle">
+            <i class="fa fa-phone-square fa-1x" aria-hidden="true"></i>&nbsp;+55 81 9-9411-6483<br><br>
+            <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>&nbsp;dadeeufpe@gmail.com<br><br>
+            <a class="alert-link mybuttonlinkscontact" href="https://facebook.com/DADEEUFPE" target="_blank"><i class="fa fa-facebook-square fa-1x" aria-hidden="true">&nbsp;</i></a>https://www.facebook.com/DADEEUFPE<br><br>
+            <a class="alert-link mybuttonlinkscontact" href="https://instagram.com/dadeeufpe?igshid=gomknortwbva" target="_blank"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>&nbsp;https://www.instagram.com/dadeeufpe/?igshid=gomknortwbva<br><br>
+            <a class="alert-link mybuttonlinkscontact" href="https://linkedin.com/in/dadee-ufpe-b5b80919a" target="_blank"><i class="fa fa-linkedin-square fa-1x" aria-hidden="true"></i></a>&nbsp;https://www.linkedin.com/in/dadee-ufpe-b5b80919a<br><br>
+          </p>
         </div>
-        </div> <!-- FIM DELIMITADOR DO ENDEREÇO -->
-      </div> <!-- FIM CONTAINER - MAPA E ENDEREÇO -->
-    </div> <!-- FIM ROW - FORM, MAPA E ENDEREÇO -->
+        </div>
+      </div>
+    </div>
   </div>
+  </div>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->     
   <!-- FOOTER  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <footer class="footer mt-auto py-2"> <!-- footer - barra do rodapé -->
     <div class="d-flex justify-content-center text-center"> <!-- ícones dos links para redes sociais -->
@@ -429,7 +428,7 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use            -->
 <!-- https://firebase.google.com/docs/web/setup#available-libraries       -->
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-<script src="./assets/js/app.js"></script>
+<script src="./assets/js/initializefirebase.js"></script>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </body> <!-- FIM - BODY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </html>
