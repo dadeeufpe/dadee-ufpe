@@ -1,0 +1,61 @@
+.parallax {
+  /* The image used */
+  background-image: url("./assets/img/background_1.jpg");
+  /* Set a specific height */
+  min-height: 300px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mybody {
+  background:#e9ecef;
+}
+.mylogo{
+  width: 40px;
+  height: 40px;
+}
+.mytitle{
+  margin-top:98px;
+}
+.myiframegoogle{
+  border:0;
+}
+.fontgoogle{
+  font: 400 14px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.mybuttonlinks{
+  color: rgba(255,255,255,.90);
+  margin-top: 16px;
+  margin-left: 12px; 
+}
+.mybuttonlinks:hover{
+  color: #ffc107;
+}
+.mybuttonlinksfooter{
+  color: rgba(0,0,0,.75);
+  margin-top: 16px;
+  margin-left: 12px; 
+}
+.mybuttonlinksfooter:hover{
+  color: #ffc107;
+}
+.mybuttonlinkscontact{
+  color: #6c757d;
+}
+.mybuttonlinkscontact:hover{
+  color: #ffc107;
+}
+.delimitformgoogle{
+width: 330px;
+height: 725px;
+margin-top: -10px;
+overflow: hidden;
+}
+.myjumbotron{
+  background-color: rgba(0,0,0,.20);
+}
+.mysubtitle{
+  margin-top: 3px;
+}
