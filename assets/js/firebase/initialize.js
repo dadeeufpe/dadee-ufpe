@@ -24,10 +24,14 @@
     appId: "1:231798506318:web:dccabb75541a593b8d141f",
     measurementId: "G-8VJLM5R0PS"
   };
+
   // Inicialização do Firebase
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+  // open a firestore db
+  const db = firebase.firestore();
+  db.settings({ timestampInSnapshots: true });
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //  FIM - CONEXÃO COM FIREBASE        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
