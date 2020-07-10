@@ -29,9 +29,10 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-  // open a firestore db
+  // Initialize Cloud Firestore through Firebase
+  // open a firestore - set db const
   const db = firebase.firestore();
-  db.settings({ timestampInSnapshots: true });
+  //db.settings({ timestampsInSnapshots: true });
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //  FIM - CONEXÃO COM FIREBASE        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
