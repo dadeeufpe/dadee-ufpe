@@ -339,26 +339,26 @@
     <div class="row justify-content-center">
       <div class="col-md-5 border border-light p-3 m-3 text-left"> <!-- formulário -->
         <div class="form-group">
-          <form>
+          <form id="formSendMessage" action="./index.html" onsubmit="getInputsOnFormAndSave()">
             <h3 class="mb-5">Envie uma mensagem para o DA-DEE.</h3>
             <div class="form-group mt-3">
               <label class="ml-1" for="inputName">Nome:</label>
-              <input type="text" class="form-control" id="inputName" placeholder="Nome completo">
+              <input type="text" class="form-control" id="inputName" placeholder="Nome completo" required="required">
             </div>
             <div class="form-group">
               <label class="ml-1" for="inputEmail">Email:</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="nome@exemplo.com">
+              <input type="email" class="form-control" id="inputEmail" placeholder="nome@exemplo.com" required="required">
             </div>
             <div class="form-group">
               <label class="ml-1" for="inputSubject">Assunto:</label>
-              <input type="text" class="form-control" id="inputSubject" placeholder="Tema da mensagem">
+              <input type="text" class="form-control" id="inputSubject" placeholder="Tema da mensagem" required="required">
             </div>
             <div class="form-group">
               <label class="ml-1" for="inputMessage">Mensagem:</label>
-              <textarea class="form-control" id="inputMensagem" rows="10" placeholder="Digite aqui a mensagem que deseja enviar para o DADEE-UFPE."></textarea>
+              <textarea class="form-control" id="inputMessage" rows="10" placeholder="Digite aqui a mensagem que deseja enviar para o DADEE-UFPE." required="required"></textarea>
             </div>
             <div class="form-group">
-              <button type="buttonEnviar" class="btn btn-warning">Enviar</button>
+              <button class="btn btn-warning" type="submit" id="buttonEnviar">Enviar</button>
             </div>
           </form>
         </div> <!-- fim container formulário google -->
