@@ -31,23 +31,23 @@
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- FAVICONS CONFIGURATION         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<link rel="apple-touch-icon" sizes="57x57"          href="./apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60"          href="./apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72"          href="./apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76"          href="./apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114"        href="./apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120"        href="./apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144"        href="./apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152"        href="./apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180"        href="./apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"   href="./android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32"     href="./favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96"     href="./favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16"     href="./favicon-16x16.png">
-<link rel="manifest"                                href="./manifest.json">
-<meta name="msapplication-TileColor"             content="#ffffff">
-<meta name="msapplication-TileImage"             content="./ms-icon-144x144.png">
-<meta name="theme-color"                         content="#ffffff">
+<link rel="apple-touch-icon"        sizes="57x57"     href="./apple-icon-57x57.png">
+<link rel="apple-touch-icon"        sizes="60x60"     href="./apple-icon-60x60.png">
+<link rel="apple-touch-icon"        sizes="72x72"     href="./apple-icon-72x72.png">
+<link rel="apple-touch-icon"        sizes="76x76"     href="./apple-icon-76x76.png">
+<link rel="apple-touch-icon"        sizes="114x114"   href="./apple-icon-114x114.png">
+<link rel="apple-touch-icon"        sizes="120x120"   href="./apple-icon-120x120.png">
+<link rel="apple-touch-icon"        sizes="144x144"   href="./apple-icon-144x144.png">
+<link rel="apple-touch-icon"        sizes="152x152"   href="./apple-icon-152x152.png">
+<link rel="apple-touch-icon"        sizes="180x180"   href="./apple-icon-180x180.png">
+<link rel="icon"  type="image/png"  sizes="192x192"   href="./android-icon-192x192.png">
+<link rel="icon"  type="image/png"  sizes="32x32"     href="./favicon-32x32.png">
+<link rel="icon"  type="image/png"  sizes="96x96"     href="./favicon-96x96.png">
+<link rel="icon"  type="image/png"  sizes="16x16"     href="./favicon-16x16.png">
+<link rel="manifest"                                  href="./manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+<meta name="theme-color"             content="#ffffff">
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- FIM  -  FAVICONS CONFIGURATION         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -94,7 +94,7 @@
       <!-- NAVBAR - ITENS DA NAVBAR xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
       <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar"> <!-- navbar itens -->
         <ul class="navbar-nav">
-        	<li class="nav-item"><a class="nav-link" href="./index.html#"><i class="fa fa-home fa-1x" aria-hidden="true"></i></a></li>
+        	<li class="nav-item"><a class="nav-link active" href="./index.html#"><i class="fa fa-home fa-1x" aria-hidden="true"></i></a></li>
 		    
           <li class="nav-item"><a class="nav-link"  href="./blog.html"            >Blog</a></li>
           <li class="nav-item"><a class="nav-link"  href="./index.html#section3"  >Contatos</a></li>
@@ -152,10 +152,10 @@
         <h3>Engenharia de Controle e Automação</h3>
         <p id="comentario">Venha conhecer um pouco sobre a graduação em Engenharia de Controle e Automação clicando no botão abaixo.</p>
         <div class="row">
-          <button id="btn-ocultar" class="btn btn-sm btn-secondary ml-3 mb-2" type="button">Oculta detalhes &raquo;</button> 
+          <button id="btn-ocultar" class="btn btn-sm btn-secondary ml-3 mb-2" type="button" style="display: none">Oculta detalhes &raquo;</button> 
           <button id="btn-exibir" class="btn btn-sm btn-warning ml-3 mb-2" type="button">Ver detalhes &raquo;</button>
         </div>
-        <div id="sessao" class="mb-2">  <!-- div aparece/desaparece -->
+        <div id="sessao" class="mb-2" style="display: none">  <!-- div aparece/desaparece -->
           <h5 class="font-weight-bold mysubtitle">REFERÊNCIAIS NACIONAIS</h5>
           <p class="text-right">Carga Horária Mínima: 3600h.</p>
           <h9 class="font-weight-bold">PERFIL DO EGRESSO</h9>
@@ -197,14 +197,15 @@
 <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <!-- SECAO 1.2 GRADUACAO xXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <div id="section12" class="container-fluid col-md-10 offset-md-1 mb-3"> <!-- container - section1.2 -->
+        <div id="section12"> </div>
+        <div  class="container-fluid col-md-10 offset-md-1 mb-3"> <!-- container - section1.2 -->
           <h2>Engenharia Elétrica</h2>
           <p id="comentario1">Clique no botão abaixo você pode encontrar informações importante sobre o curso de gradução em Engenharia Elétrica.</p>
           <div class="row"> <!-- div com os botões de exibir/ocultar -->
-            <button id="btn-ocultar1" class="btn btn-sm btn-secondary ml-3 mb-2" type="button">Oculta detalhes &raquo;</button> 
+            <button id="btn-ocultar1" class="btn btn-sm btn-secondary ml-3 mb-2" style="display: none" type="button">Oculta detalhes &raquo;</button> 
             <button id="btn-exibir1" class="btn btn-sm btn-warning ml-3 mb-2" type="button">Ver detalhes &raquo;</button>
           </div> <!-- fim div com os botões de exibir/ocultar -->
-          <div id="sessao1" class="mb-2"> <!-- seção aparece/desaparece -->
+          <div id="sessao1" class="mb-2" style="display: none"> <!-- seção aparece/desaparece -->
             <h5 class="font-weight-bold mysubtitle">REFERÊNCIAIS NACIONAIS</h5>
             <p class="text-right">Carga Horária Mínima: 3600h.</p>
             <h9 class="font-weight-bold">PERFIL DO EGRESSO</h9>
