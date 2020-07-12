@@ -61,3 +61,15 @@
       });
   });
   // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+  $(document).ready(function(){
+      // Oculta paragrafo e botão
+      // Hide displayed paragraphs e button
+      $(".ee").click(function(){
+        $("#sessao").hide();
+        $("#comentario").fadeIn();
+        $("#btn-ocultar").hide();
+        $("#btn-ocultar-fim").hide();
+        $("#btn-exibir").fadeIn();
+      });
+  });
