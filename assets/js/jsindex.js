@@ -30,12 +30,12 @@
           $("#btn-ocultar").fadeIn();
           $("#btn-ocultar-fim").fadeIn();          
       });
-  });
+  
   // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   // função que atua nos botões da sessão 1.2 da página Index.html
   // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   // função para exibir/ocultar parte da sessão
-  $(document).ready(function(){
+  
         $("#sessao1").hide();
         $("#comentario1").show(); 
         $("#btn-ocultar1").hide();
@@ -59,13 +59,12 @@
           $("#btn-ocultar1").fadeIn();
           $("#btn-ocultar-fim1").fadeIn(); 
       });
-  });
+  
   // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-  $(document).ready(function(){
       // Oculta paragrafo e botão
       // Hide displayed paragraphs e button
-      $(".ee").click(function(){
+      $("#close-section-11").click(function(){
         $("#sessao").hide();
         $("#comentario").fadeIn();
         $("#btn-ocultar").hide();
