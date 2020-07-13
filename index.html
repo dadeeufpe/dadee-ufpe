@@ -28,9 +28,12 @@
       <meta property="og:image:height"  content="807"> <!-- PIXELS -->
       <meta property="og:type"          content="website">
     <!-- FIM - meta tags SOBRE O SITE -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- FAVICONS CONFIGURATION       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FAVICONS CONFIGURATION         xxssssssxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FAVICONS CONFIGURATION         xxssssssxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FAVICONS CONFIGURATION         xxssssssxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <link rel="apple-touch-icon"        sizes="57x57"     href="./apple-icon-57x57.png">
 <link rel="apple-touch-icon"        sizes="60x60"     href="./apple-icon-60x60.png">
 <link rel="apple-touch-icon"        sizes="72x72"     href="./apple-icon-72x72.png">
@@ -48,32 +51,39 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
 <meta name="theme-color"             content="#ffffff">
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- FIM  -  FAVICONS CONFIGURATION         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- LINKS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FIM - FAVICONS CONFIGURATION         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--   LINKS          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--   LINKS          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--   LINKS          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Bootstrap CSS -->
     <link href="./assets/css/bootstrap.min.css"     rel="stylesheet"/>
+    <!-- Footer CSS -->
     <link href="./assets/css/sticky-footer.css"     rel="stylesheet"/>
+    <!-- FontAwesome CSS -->
     <link href="./assets/css/font-awesome.min.css"  rel="stylesheet"/>
+    <!-- Mycss - Custom CSS -->
     <link href="./assets/css/mycss.css"             rel="stylesheet"/>
-
-  <!-- carousel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- link rel="stylesheet" href="assets/css/carousel.css" -->
-  <!-- carousel xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </head>
-<!-- fim HEAD xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- x -->
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- BODY                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FIM - HEAD              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- BODY                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <body class="mybody">
-  <!-- x -->
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- NAVBAR                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       NAV BAR            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       NAV BAR            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       NAV BAR            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       NAV BAR            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       NAV BAR            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <div class="container"> <!-- container da NAVBAR -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">  
+    <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">  
       <!-- NAVBAR - ICONE DA-DEE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
       <div class="d-flex justify-content-start">
         <a class="navbar-brand" href="./index.html#">
@@ -95,190 +105,433 @@
       <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar"> <!-- navbar itens -->
         <ul class="navbar-nav">
           <div id="home">
-        	 <li class="nav-item"><a class="nav-link active" href="./index.html#"><i class="fa fa-home fa-1x" aria-hidden="true"></i></a></li>
+        	 <li class="nav-item"><a id="link-home" class="nav-link active" href="./index.html#"><i class="fa fa-home fa-1x" aria-hidden="true"></i></a></li>
           </div>
-		    
-          <li class="nav-item"><a class="nav-link"  href="./blog.html"            >Blog</a></li>
+		      <div id="blog">
+            <li class="nav-item"><a id="link-blog" class="nav-link"  href="./index.html#sectionblog">Blog</a></li>
+          </div>
           <div id="contatos">
-            <li class="nav-item"><a class="nav-link"  href="./index.html#section3"  >Contatos</a></li>
+            <li class="nav-item"><a id="link-contatos" class="nav-link"  href="./index.html#section-contatos"  >Contatos</a></li>
           </div>
-          <li class="nav-item"><a class="nav-link"  href="./documentos.html"      >Documentos</a></li>
-          <li class="nav-item"><a class="nav-link"  href="./eventos.html"         >Eventos</a></li>
-          
-		    <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle"   data-toggle="dropdown" 
-                                                    href="#" id="navbardrop"      >Graduação</a>
-            <div class="dropdown-menu">
-            <div id="graduacaoeca">
-              <a class="dropdown-item"                    href="./index.html#section11" >Engenharia de Controle e Automação</a>
-            </div>
-              <div id="graduacaoee">
-              <a class="dropdown-item"   href="./index.html#section11" >Engenharia Elétrica</a>
-            </div>
-            </div>
-          </li>
-
-          <li class="nav-item"><a class="nav-link"  href="./parceiros.html"       >Parceiros</a></li>
+          <div id="documentos">
+            <li class="nav-item"><a id="link-documentos" class="nav-link"  href="./index.html#section-documentos"      >Documentos</a></li>  
+          </div>
+          <div id="eventos">
+            <li class="nav-item"><a id="link-eventos" class="nav-link"  href="./index.html#section-eventos"         >Eventos</a></li>
+          </div>
+          <div id="graduacao">
+            <li class="nav-item"><a id="link-graduacao" class="nav-link"  href="./index.html#section-graduacao"     >Graduação</a></li>
+          </div>
+		      <div id="parceiros">
+            <li class="nav-item"><a id="link-parceiros" class="nav-link" id="link-parceiros" href="./index.html#section-parceiros"       >Parceiros</a></li>
+          </div>
           <div id="sobre">
-            <li class="nav-item"><a class="nav-link"  href="./index.html#section2"  >Sobre</a></li>
+            <li class="nav-item"><a id="link-sobre" class="nav-link" href="./index.html#section-sobre"  >Sobre</a></li>
           </div>
         </ul>
       </div> <!-- navbar itens -->
       <!-- NAVBAR - FIM - ITENS DA NAVBAR xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     </nav> <!-- NAVBAR - FIM xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   </div> <!-- container da NAVBAR -->
- <!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
- <div class="container-fluid col-md-10 offset-md-1">
+<!-- FIM - NAVBAR    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DA-DEE UFPE        + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DA-DEE UFPE        + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DA-DEE UFPE        + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DA-DEE UFPE        + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DA-DEE UFPE        + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+ <div class="container-fluid col-md-10 offset-md-1 group-index">
   <div class="jumbotron bg-warning mytitle"> <!-- jumbotron - título DA-DEE -->
     <h1>DA-DEE UFPE</h1>
     <p class="font-weight-bold">Diretório Acadêmico de Engenharia Elétrica e Engenharia de Controle e Automação da Universidade Federal de Pernambuco.</p>
   </div> <!-- jumbotron - título DA-DEE -->
 </div>
+<!-- FIM - TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       BLOG               + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       BLOG               + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       BLOG               + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       BLOG               + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       BLOG               + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="group-blog" id="sectionblog" style="display: none;">
+ <div class="container-fluid col-md-10 offset-md-1 group-blog">
+  <div class="jumbotron bg-warning mytitle"> <!-- jumbotron - título DA-DEE -->
+    <div class="d-flex">
+      <div class="col">
+    <h1>Blog</h1>
+        <p class="font-weight-bold">Informações sobre eventos realizados.</p>
+      </div>
+      <div class="col text-right">
+        <h4 style="color: #FFD700">DA-DEE UFPE</h4>
+      </div>
+    </div>
+  </div> <!-- jumbotron - título DA-DEE -->
+</div>
   <!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
-  <div class="parallax" style="background-image: url('./assets/img/background_1.jpg');"></div>
+  <div class="parallax" style="background-image: url('./assets/img/background_6.jpg');"></div>
   <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
   <!-- x -->
   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- SECAO 1 - GRADUCAO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- SECAO 2 - BLOG   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <div id="section11" class="container-fluid col-md-10 offset-md-1"> <!-- section1 -->
-    <div class="jumbotron myjumbotron mt-3"> <!-- jumbotron - Título Graduações -->
-      <h1>Graduação</h1>
-      <p>Informações sobre os Cursos Superiores de Graduação Acadêmica.</p>
-    </div> <!-- jumbotron - Título Graduações -->
-<!-- start inicio start inicio start inicio start inicio start inicio start inicio start    -->
+  <div class="container-fluid col-md-10 offset-md-1 text-left  mb-5 mt-5"> <!-- container-fluid-->
+    <div class="container-fluid col-md-10 offset-md-1"> <!-- container-->
+      <h3>Lorem Ipsum</h3>
+      <p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <p class="text-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div> <!-- container-->
+  </div> <!-- container-fluid-->
+</div>
+<!-- FIM - BLOG       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <div class="parallax group-index" style="background-image: url('./assets/img/background_1.jpg');"></div>
+ <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+ <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-<!-- DIV COM BOTÃO SAIBA MAIS + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
 <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-<!-- A sessão abaixo é elaborada para comportar um título com um trecho de texto            -->
-<!-- #sessao - id do elemento que deve aparecer/desaparecer                                 -->
-<!-- #btn-ocultar - id do botão que se oculta junto com o elemento                          -->
-<!-- #btn-ocultar-fim - id do botão que se oculta junto com o elemento                      -->
-<!-- #btn-exibir - id do botão que aciona o aparecimento do elemento                        -->
+<!--       DOCUMENTOS         + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DOCUMENTOS         + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DOCUMENTOS         + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DOCUMENTOS         + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       DOCUMENTOS         + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
- <!-- SECAO 1.1 GRADUCAO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-      <div class="container-fluid col-md-10 offset-md-1 mb-3"> <!-- container - section1.1 -->
-        <h3>Engenharia de Controle e Automação</h3>
-        <p id="comentario">Venha conhecer um pouco sobre a graduação em Engenharia de Controle e Automação clicando no botão abaixo.</p>
-        <div class="row">
-          <button id="btn-ocultar" class="btn btn-sm btn-secondary ml-3 mb-2" type="button" style="display: none">Oculta detalhes &raquo;</button> 
-          <button id="btn-exibir" class="btn btn-sm btn-warning ml-3 mb-2" type="button">Ver detalhes &raquo;</button>
+<!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="group-documentos" id="section-documentos" style="display: none">
+   <div class="container-fluid col-md-10 offset-md-1">
+    <div class="jumbotron bg-warning mytitle"> <!-- jumbotron - DOCUMENTOS - título DA-DEE -->
+      <div class="d-flex">
+        <div class="col">
+         <h1>Documentos</h1>
+          <p class="font-weight-bold">Documentos importantes colecionados.</p>
         </div>
-        <div id="sessao" class="mb-2" style="display: none">  <!-- div aparece/desaparece -->
-          <h5 class="font-weight-bold mysubtitle">REFERÊNCIAIS NACIONAIS</h5>
-          <p class="text-right">Carga Horária Mínima: 3600h.</p>
-          <h9 class="font-weight-bold">PERFIL DO EGRESSO</h9>
-          <p class="text-justify"> O Engenheiro de Controle e Automação é um profissional de formação generalista, que atua no controle e automação de equipamentos, processos, unidades e sistemas de produção. Em sua atuação, estuda, projeta e especifica materiais, componentes, dispositivos ou equipamentos elétricos, eletromecânicos, eletrônicos, magnéticos, ópticos, de instrumentação, de aquisição de dados e de máquinas elétricas. Planeja, projeta, instala, opera e mantém sistemas de medição e instrumentação eletro-eletrônica, de acionamentos de máquinas, de controle e automação de processos, de equipamentos dedicados, de comando numérico e de máquinas de operação autônoma. Projeta, instala e mantém robôs, sistemas de manufatura e redes industriais. Coordena e supervisiona equipes de trabalho, realiza estudos de viabilidade técnico-econômica, executa e fiscaliza obras e serviços técnicos e efetua vistorias, perícias e avaliações, emitindo laudos e pareceres técnicos. Em suas atividades, considera aspectos referentes à ética, à segurança, à legislação e aos impactos ambientais. </p>
-          <h9 class="font-weight-bold">TEMAS ABORDADOS NA FORMAÇÃO</h9>
-          <p class="text-justify">Atendidos os conteúdos do núcleo básico da Engenharia, os conteúdos profissionalizantes do curso são: Eletricidade; Métodos Numéricos; Circuitos Elétricos; Circuitos Lógicos; Conversão de Energia; Controle de Sistemas Dinâmicos; Eletromagnetismo; Eletrônica Analógica e Digital; Instrumentação Eletro-Eletrônica; Materiais Elétricos; Matemática Discreta; Mecânica Aplicada; Modelagem, Análise e Simulação de Sistemas; Robótica; Qualidade de Energia; Sistemas Mecânicos; Sistemas Contínuos e Discretos; Pneumática e Hidráulica.</p>
-          <h9 class="font-weight-bold">ÁREAS DE ATUAÇÃO</h9>
-          <p class="text-justify">O Engenheiro de Controle e Automação é habilitado para trabalhar em concessionárias de energia, automatizando os setores de geração, transmissão ou distribuição de energia; na automação de indústrias e na automação predial; com simulação, análise e emulação de grandes sistemas por computador; na fabricação e aplicação de máquinas e equipamentos elétricos robotizados ou automatizados.</p>
-          <h9 class="font-weight-bold">INFRAESTRUTURA RECOMENDADA</h9>
-          <p class="text-justify">Laboratório de Eletricidade e Circuitos; Laboratório de Máquinas Elétricas e Acionamentos; Laboratório de Eletrônica; Laboratório de Informática; Laboratório de Controle Eletromagnético, Pneumática e Hidráulica; Laboratório de Automação; Laboratório de Robótica; Laboratório de Sistemas de Manufatura.</p>
-          <h9 class="font-weight-bold">LEGISLAÇÃO PERTINENTE</h9>
-          <p>Lei 5.194/66.</p>
-          <p>Resolução CNE/CES 11/2002.</p>
-          <p>Resolução Confea 427/1999.</p>
-          <p class="text-right">Disponivel em: (<a class="badge badge-warning" href="http://portal.mec.gov.br/dmdocuments/referenciais.pdf" target="_blank">Referências Nacionais dos Cursos de Engenharia</a>).</p>
-          <h5 class="font-weight-bold text-justify"> PARTICULARIDADES DO CURSO DE GRADUAÇÃO EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO OFERTADO NA UFPE </h5>
-          <p>Vinculação: Departamento de Engenharia Elétrica (DEE).</p>
-          <p>Localização do Curso: Centro de Tecnologia e Geociências.</p>
-          <p>Vagas oferecidas no Vestibular: 20 na 1ª Entrada e 20 na 2ª Entrada.</p>
-          <p>Turno(s): Manhã/Tarde.</p>
-          <p>Carga Horária (horas): 3.975h.</p>
-          <p>Duração do Curso: Mínima – 10 Semestres / Máxima – 18 Semestres.</p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/38970/411209/perfil+automacao.pdf/ccdff0ea-7709-4e60-8b14-d4976ffec9a0" target="_blank">Componentes Curriculares.</a></p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/0/estrutura_curricular-automacao.pdf/c7e658ca-3118-4eb9-8a17-9c458ab74607" target="_blank">Estrutura Curricular.</a></p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/Regulamento_estagio_curricular.pdf/d665a7a4-2ed7-4318-868e-e1d0143d5dc6" target="_blank">Regulamento da Disciplina Estágio Curricular.</a></p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/manual_texto_tecnicos.pdf/7438a8ed-8710-4708-88ed-6f7aceab1449" target="_blank">Manual Para Elaboração e Apresentação de Textos Técnicos.</a></p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1563707/resolucao_dee15.pdf/2fbd1932-083b-44e6-874e-91ed461ad8f4" target="_blank">Regulamento Geral para Atividades Complementares.</a></p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/resolucaoeca.pdf/a169c17e-749f-4515-8c0a-435999f93e7c" target="_blank">Regulamento da Disciplina Tracalho de Conclusão de Curso.</a></p>
-          <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/ppc.pdf/f8a033f3-f43b-4820-addf-25853c005002" target="_blank">Projeto Pedagógico do Curso (PPC).</a></p>
-          <div class="row">
-            <button id="btn-ocultar-fim" class="btn btn-sm btn-secondary ml-3 mb-2" type="button">Oculta detalhes &raquo;</button> 
-          </div>
-        </div> <!-- div aparece/desaparece -->
-      </div> <!-- container - section1.1 -->
-<!-- FIM - SECAO 1.1 GRADUCAO xXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- SECÃO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <div class="col text-right">
+          <h4 class="text-muted">DA-DEE UFPE</h4>
+        </div>
+      </div>
+    </div> <!-- jumbotron - DOCUMENTOS - título DA-DEE -->
+  </div>
+  <!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <div class="parallax" style="background-image: url('./assets/img/background_4.jpg');"></div>
+  <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <!-- x -->
+  <div class="container-fluid col-md-10 offset-md-1 text-left  mb-5 mt-5"><!-- container-fluid DOCUMENTOS-->
+    <div class="container-fluid col-md-10 offset-md-1"> <!-- container DOCUMENTOS-->
+      <h3>Lorem Ipsum</h3>
+      <p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <p class="text-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div> <!-- container DOCUMENTOS-->
+  </div> <!-- container-fluid DOCUMENTOS-->
+</div>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->   
+<!-- FIM - DOCUMENTOS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
-<!-- DIV COM BOTÕES EXIBIR/OCULTAR  + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       EVENTOS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       EVENTOS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       EVENTOS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       EVENTOS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       EVENTOS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
 <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- SECAO 1.2 GRADUACAO xXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <div id="section12"> </div>
-        <div  class="container-fluid col-md-10 offset-md-1 mb-3"> <!-- container - section1.2 -->
-          <h2>Engenharia Elétrica</h2>
-          <p id="comentario1">Clique no botão abaixo você pode encontrar informações importante sobre o curso de gradução em Engenharia Elétrica.</p>
-          <div class="row"> <!-- div com os botões de exibir/ocultar -->
-            <button id="btn-ocultar1" class="btn btn-sm btn-secondary ml-3 mb-2" style="display: none" type="button">Oculta detalhes &raquo;</button> 
-            <button id="btn-exibir1" class="btn btn-sm btn-warning ml-3 mb-2" type="button">Ver detalhes &raquo;</button>
-          </div> <!-- fim div com os botões de exibir/ocultar -->
-          <div id="sessao1" class="mb-2" style="display: none"> <!-- seção aparece/desaparece -->
+<!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="group-eventos" id="section-eventos" style="display: none">
+ <div class="container-fluid col-md-10 offset-md-1">
+  <div class="jumbotron bg-warning mytitle"> <!-- jumbotron - EVENTOS - título DA-DEE -->
+    <div class="d-flex">
+      <div class="col">
+    <h1>Eventos</h1>
+        <p class="font-weight-bold">Informações sobre eventos realizados.</p>
+      </div>
+      <div class="col text-right">
+        <h4 class="text-muted">DA-DEE UFPE</h4>
+      </div>
+    </div>
+  </div> <!-- jumbotron - EVENTOS - título DA-DEE -->
+</div>
+  <!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <div class="parallax" style="background-image: url('./assets/img/background_9.jpg');"></div>
+  <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <!-- x -->
+  <div class="container-fluid col-md-10 offset-md-1 text-left  mb-5 mt-5"><!-- container-fluid EVENTOS-->
+    <div class="container-fluid col-md-10 offset-md-1"> <!-- container EVENTOS-->
+      <h3>Feira de Automação e Sistemas Elétricos - FASE</h3>
+      <p class="text-justify">A ideia original da FASE estava voltada para capacitar melhor os estudantes do DEE. Essa ideia surgiu pelo fato de entrarmos em contato com a parte prática só no final do curso e seria interessante de mostrar um pouco de prática para os estudantes recém chegados e tal. Aí levamos a ideia para a coordenação do curso de automação e para a empresa júnior do departamento a Watt. E nessa interação expandimos o objetivo do evento para aumentar a interação da universidade com as empresas da região e de trazer a experiência de quem vivencia diariamente a engenharia de controle e elétrica em suas mais variadas facetas.</p>
+    <p class="text-justify">Depois do sucesso da primeira edição, as expectativas e cobranças para uma próxima edição subiu bastante. Para segunda edição tbm conseguimos o apoio da diretoria de inovação da ufpe a POSITIVA e os nosso antigos parceiros a Watt consultoria e a coordenação dos cursos de elétrica e automação. Nesta edição a FASE entrou para o calendário do departamento torna-se uma atividade oficial com uma semana de duração. Durante essas duas edições diversas empresas de destaque no cenário de automação( Siemens, Schneider, Avante, CESAR..) e de elétrica( ESC, SRC Energy, Elétron...) passaram pelo nosso evento com palestras e minicursos.</p>
+    </div> <!-- container EVENTOS-->
+  </div> <!-- container-fluid EVENTOS-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+      <div class="container-fluid col-md-10 offset-md-1 text-left mb-5"> <!-- container-fluid EVENTOS-->
+    <div class="container-fluid col-md-10 offset-md-1"> <!-- container EVENTOS-->
+      <h3>Copa DEE de Futsal</h3>
+      <p class="text-justify">Objetivando o estímulo à prática de esportes e promovendo relações interpessoais em atividade competitiva. O DADEE coordenou o campeonato de futsal contando com a participação de alunos e professores. O evento ocorreu no Núcleo de Educação Física e Desporto (NEFD) da UFPE, tendo alcançado momentos de integração.</p>
+    <p class="text-justify">Além das atividades físicas, os recursos arrecados com a Copa DEE de Futsal foram revertidos para a reforma do refeitório/copa dos funcionários do Departamento de Engenharia Elétrica (DEE).</p>
+
+    <p class="text-justify">A experência trazida com a Copa DEE de Futsal demonstrou a importância de promoção de integração social, da necessidade de rompimento com o sedentarismo, passando este evento a integrar o calendário do DADEE.</p>
+    </div> <!-- container EVENTOS-->
+  </div> <!-- container-fluid EVENTOS-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->     
+      <div class="container-fluid col-md-10 offset-md-1 text-left  mb-5"> <!-- container-fluid EVENTOS-->
+    <div class="container-fluid col-md-10 offset-md-1"> <!-- container EVENTOS-->
+      <h3>Lorem Ipsum</h3>
+      <p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <p class="text-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div> <!-- container EVENTOS-->
+  </div> <!-- container-fluid EVENTOS-->
+</div>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+<!-- FIM - EVENTOS    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       GRADUAÇÃO          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       GRADUAÇÃO          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       GRADUAÇÃO          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       GRADUAÇÃO          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       GRADUAÇÃO          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <div id="section-graduacao" class="group-index">
+    <div id="section11" class="container-fluid col-md-10 offset-md-1 group-index"> <!-- section1 -->
+      <div class="jumbotron myjumbotron mt-3"> <!-- jumbotron - Título Graduações -->
+        <h1>Graduação</h1>
+        <p>Informações sobre os Cursos Superiores de Graduação Acadêmica.</p>
+      </div> <!-- jumbotron - Título Graduações -->
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- GRADUAÇÃO ENGENHARIA DE CONTROLE E AUTOMAÇÃO     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- GRADUAÇÃO ENGENHARIA DE CONTROLE E AUTOMAÇÃO     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- GRADUAÇÃO ENGENHARIA DE CONTROLE E AUTOMAÇÃO     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- start inicio start inicio start inicio start inicio start inicio start inicio start    -->
+  <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+  <!-- DIV COM BOTÃO SAIBA MAIS + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+  <!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+  <!-- A sessão abaixo é elaborada para comportar um título com um trecho de texto            -->
+  <!-- #sessao - id do elemento que deve aparecer/desaparecer                                 -->
+  <!-- #btn-ocultar - id do botão que se oculta junto com o elemento                          -->
+  <!-- #btn-ocultar-fim - id do botão que se oculta junto com o elemento                      -->
+  <!-- #btn-exibir - id do botão que aciona o aparecimento do elemento                        -->
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+   <!-- SECAO 1.1 GRADUCAO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <div class="container-fluid col-md-10 offset-md-1 mb-3"> <!-- container - section1.1 -->
+          <h3>Engenharia de Controle e Automação</h3>
+          <p id="comentario">Venha conhecer um pouco sobre a graduação em Engenharia de Controle e Automação clicando no botão abaixo.</p>
+          <div class="row">
+            <button id="btn-ocultar" class="btn btn-sm btn-secondary ml-3 mb-2" type="button" style="display: none">Oculta detalhes &raquo;</button> 
+            <button id="btn-exibir" class="btn btn-sm btn-warning ml-3 mb-2" type="button">Ver detalhes &raquo;</button>
+          </div>
+          <div id="sessao" class="mb-2" style="display: none">  <!-- div aparece/desaparece -->
             <h5 class="font-weight-bold mysubtitle">REFERÊNCIAIS NACIONAIS</h5>
             <p class="text-right">Carga Horária Mínima: 3600h.</p>
             <h9 class="font-weight-bold">PERFIL DO EGRESSO</h9>
-            <p class="text-justify">O Engenheiro Eletricista é um profissional de formação generalista, que atua na geração, transmissão, distribuição e utilização da energia elétrica. Em sua atuação, estuda, projeta e especifica materiais, componentes, dispositivos e equipamentos elétricos, eletromecânicos, magnéticos, de potência, de instrumentação, de aquisição de dados e de máquinas elétricas. Ele planeja, projeta, instala, opera e mantém instalações elétricas, sistemas de medição e de instrumentação, de acionamentos de máquinas, de iluminação, de proteção contra descargas atmosféricas e de aterramento. Além disso, elabora projetos e estudos de conservação e de eficientização de energia e utilização de fontes alternativas e renováveis. </p>
-            <p class="text-justify">Coordena e supervisiona equipes de trabalho, realiza estudos de viabilidade técnico-econômica, executa e fiscaliza obras e serviços técnicos; e efetua vistorias, perícias e avaliações, emitindo laudos e pareceres. Em suas atividades, considera a ética, a segurança, a legislação e os impactos ambientais.</p> 
+            <p class="text-justify"> O Engenheiro de Controle e Automação é um profissional de formação generalista, que atua no controle e automação de equipamentos, processos, unidades e sistemas de produção. Em sua atuação, estuda, projeta e especifica materiais, componentes, dispositivos ou equipamentos elétricos, eletromecânicos, eletrônicos, magnéticos, ópticos, de instrumentação, de aquisição de dados e de máquinas elétricas. Planeja, projeta, instala, opera e mantém sistemas de medição e instrumentação eletro-eletrônica, de acionamentos de máquinas, de controle e automação de processos, de equipamentos dedicados, de comando numérico e de máquinas de operação autônoma. Projeta, instala e mantém robôs, sistemas de manufatura e redes industriais. Coordena e supervisiona equipes de trabalho, realiza estudos de viabilidade técnico-econômica, executa e fiscaliza obras e serviços técnicos e efetua vistorias, perícias e avaliações, emitindo laudos e pareceres técnicos. Em suas atividades, considera aspectos referentes à ética, à segurança, à legislação e aos impactos ambientais. </p>
             <h9 class="font-weight-bold">TEMAS ABORDADOS NA FORMAÇÃO</h9>
-            <p class="text-justify">Atendidos os conteúdos do núcleo básico da Engenharia, os conteúdos profissionalizantes são: Eletricidade; Circuitos Elétricos e Lógicos; Conversão de Energia; Eletromagnetismo; Eletrônica Analógica e Digital; Instrumentação EletroEletrônica; Materiais Elétricos; Modelagem; Análise e Simulação de Sistemas; Sistemas de Potência; Instalações Elétricas; Máquinas Elétricas e Acionamentos; Matriz Energética; Eficiência Energética; Qualidade de Energia.</p> 
-            <h9 class="font-weight-bold">AREAS DE ATUAÇÃO</h9> 
-            <p class="text-justify">O Engenheiro Eletricista é habilitado para trabalhar em concessionárias de energia nos setores de geração, transmissão ou distribuição; em empresas de automação e controle, atendendo ao mercado industrial e aos sistemas de automação predial; em projetos, manutenção e instalações industriais, comerciais e prediais, atendendo às necessidades de implantação, funcionamento, manutenção e operação dos sistemas; na definição do potencial energético de bacias hidrográficas, eficientização de sistemas energéticos, conservação de energia, fontes alternativas e renováveis de energia; com simulação, análise e emulação de grandes sistemas por computador; na fabricação e na aplicação de máquinas e equipamentos elétricos.</p>
+            <p class="text-justify">Atendidos os conteúdos do núcleo básico da Engenharia, os conteúdos profissionalizantes do curso são: Eletricidade; Métodos Numéricos; Circuitos Elétricos; Circuitos Lógicos; Conversão de Energia; Controle de Sistemas Dinâmicos; Eletromagnetismo; Eletrônica Analógica e Digital; Instrumentação Eletro-Eletrônica; Materiais Elétricos; Matemática Discreta; Mecânica Aplicada; Modelagem, Análise e Simulação de Sistemas; Robótica; Qualidade de Energia; Sistemas Mecânicos; Sistemas Contínuos e Discretos; Pneumática e Hidráulica.</p>
+            <h9 class="font-weight-bold">ÁREAS DE ATUAÇÃO</h9>
+            <p class="text-justify">O Engenheiro de Controle e Automação é habilitado para trabalhar em concessionárias de energia, automatizando os setores de geração, transmissão ou distribuição de energia; na automação de indústrias e na automação predial; com simulação, análise e emulação de grandes sistemas por computador; na fabricação e aplicação de máquinas e equipamentos elétricos robotizados ou automatizados.</p>
             <h9 class="font-weight-bold">INFRAESTRUTURA RECOMENDADA</h9>
-            <p class="text-justify">Laboratório de: Eletricidade e Circuitos; Máquinas Elétricas e Acionamentos; Eletrônica; Informática; Eficiência Energética, Energias Renováveis e Alternativas; Sistemas de Potência.</p> 
-            <h9 class="font-weight-bold">LEGISLAÇÃO PERTINENTE</h9> 
+            <p class="text-justify">Laboratório de Eletricidade e Circuitos; Laboratório de Máquinas Elétricas e Acionamentos; Laboratório de Eletrônica; Laboratório de Informática; Laboratório de Controle Eletromagnético, Pneumática e Hidráulica; Laboratório de Automação; Laboratório de Robótica; Laboratório de Sistemas de Manufatura.</p>
+            <h9 class="font-weight-bold">LEGISLAÇÃO PERTINENTE</h9>
             <p>Lei 5.194/66.</p>
-            <p>Decisão Normativa Confea 57/1995.</p>
             <p>Resolução CNE/CES 11/2002.</p>
-            <p class="text-right">Disponível em: (<a class="badge badge-warning" href="http://portal.mec.gov.br/dmdocuments/referenciais.pdf" target="_blank">Referências Nacionais do Curso de Engenharia</a>).</p>
-            <h5 class="font-weight-bold text-justify">PARTICULARIDADES DO CURSO DE GRADUAÇÃO EM ENGENHARIA ELÉTRICA OFERTADO NA UFPE</h5> 
+            <p>Resolução Confea 427/1999.</p>
+            <p class="text-right">Disponivel em: (<a class="badge badge-warning" href="http://portal.mec.gov.br/dmdocuments/referenciais.pdf" target="_blank">Referências Nacionais dos Cursos de Engenharia</a>).</p>
+            <h5 class="font-weight-bold text-justify"> PARTICULARIDADES DO CURSO DE GRADUAÇÃO EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO OFERTADO NA UFPE </h5>
             <p>Vinculação: Departamento de Engenharia Elétrica (DEE).</p>
-            <p>Localização do Curso: Centro de Tecnologia e Geociências (CTG).</p>
-            <p>Vagas oferecidas no Vestibular: 30 na 1a Entrada e 30 na 2a Entrada.</p>
+            <p>Localização do Curso: Centro de Tecnologia e Geociências.</p>
+            <p>Vagas oferecidas no Vestibular: 20 na 1ª Entrada e 20 na 2ª Entrada.</p>
             <p>Turno(s): Manhã/Tarde.</p>
-            <p>Carga Horária (horas): 3660h.</p>
+            <p>Carga Horária (horas): 3.975h.</p>
             <p>Duração do Curso: Mínima – 10 Semestres / Máxima – 18 Semestres.</p>
-            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/engenharia_eletrica_perfil_4404.pdf/66acaf19-99ad-40ba-a183-2cbee04a0313" target="_blank">Componentes Curriculares.</a></p>
-            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/GradeEletrica_2018.pdf/63301729-f1a0-4977-b763-78922cb27a75" target="_blank">Estrutura Curricular.</a></p>
-            <p class="text-right">Modelo para elaboração do relatório de estágio curricular.</p>
-            <p class="text-right">Plano de acompanhamento para Estágio curricular (OBRIGATÓRIO).</p>
-            <p class="text-right">Plano de atividades para Estágio curricular (OBRIGATÓRIO).</p>
-            <p class="text-right">Plano de atividades para Estágio curricular (NÃO OBRIGATÓRIO).</p>
-            <div class="row"> <!-- div com os botões de exibir/ocultar -->
-              <button id="btn-ocultar-fim1" class="btn btn-sm btn-secondary ml-3 mb-2" type="button">Oculta detalhes &raquo;</button> 
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/38970/411209/perfil+automacao.pdf/ccdff0ea-7709-4e60-8b14-d4976ffec9a0" target="_blank">Componentes Curriculares.</a></p>
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/0/estrutura_curricular-automacao.pdf/c7e658ca-3118-4eb9-8a17-9c458ab74607" target="_blank">Estrutura Curricular.</a></p>
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/Regulamento_estagio_curricular.pdf/d665a7a4-2ed7-4318-868e-e1d0143d5dc6" target="_blank">Regulamento da Disciplina Estágio Curricular.</a></p>
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/manual_texto_tecnicos.pdf/7438a8ed-8710-4708-88ed-6f7aceab1449" target="_blank">Manual Para Elaboração e Apresentação de Textos Técnicos.</a></p>
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1563707/resolucao_dee15.pdf/2fbd1932-083b-44e6-874e-91ed461ad8f4" target="_blank">Regulamento Geral para Atividades Complementares.</a></p>
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/resolucaoeca.pdf/a169c17e-749f-4515-8c0a-435999f93e7c" target="_blank">Regulamento da Disciplina Tracalho de Conclusão de Curso.</a></p>
+            <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/ppc.pdf/f8a033f3-f43b-4820-addf-25853c005002" target="_blank">Projeto Pedagógico do Curso (PPC).</a></p>
+            <div class="row">
+              <button id="btn-ocultar-fim" class="btn btn-sm btn-secondary ml-3 mb-2" type="button">Oculta detalhes &raquo;</button> 
             </div>
-          </div> <!-- div oculta/reaparece -->
-        </div> <!-- container - section1.2 -->
-      <!-- FIM DA SECAO 1.2 GRADUACAO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  </div> <!-- container - section1 -->
+          </div> <!-- div aparece/desaparece -->
+        </div> <!-- container - section1.1 -->
+  <!-- FIM - GRADUCAO ENGENHARIA DE CONTROLE E AUTOMAÇÃO   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- GRADUAÇÃO ENGENHARIA ELÉTRICA         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- GRADUAÇÃO ENGENHARIA ELÉTRICA         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- GRADUAÇÃO ENGENHARIA ELÉTRICA         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+          <div  class="container-fluid col-md-10 offset-md-1 mb-3"> <!-- container - section1.2 -->
+            <h2>Engenharia Elétrica</h2>
+            <p id="comentario1">Clique no botão abaixo você pode encontrar informações importante sobre o curso de gradução em Engenharia Elétrica.</p>
+            <div class="row"> <!-- div com os botões de exibir/ocultar -->
+              <button id="btn-ocultar1" class="btn btn-sm btn-secondary ml-3 mb-2" style="display: none" type="button">Oculta detalhes &raquo;</button> 
+              <button id="btn-exibir1" class="btn btn-sm btn-warning ml-3 mb-2" type="button">Ver detalhes &raquo;</button>
+            </div> <!-- fim div com os botões de exibir/ocultar -->
+            <div id="sessao1" class="mb-2" style="display: none"> <!-- seção aparece/desaparece -->
+              <h5 class="font-weight-bold mysubtitle">REFERÊNCIAIS NACIONAIS</h5>
+              <p class="text-right">Carga Horária Mínima: 3600h.</p>
+              <h9 class="font-weight-bold">PERFIL DO EGRESSO</h9>
+              <p class="text-justify">O Engenheiro Eletricista é um profissional de formação generalista, que atua na geração, transmissão, distribuição e utilização da energia elétrica. Em sua atuação, estuda, projeta e especifica materiais, componentes, dispositivos e equipamentos elétricos, eletromecânicos, magnéticos, de potência, de instrumentação, de aquisição de dados e de máquinas elétricas. Ele planeja, projeta, instala, opera e mantém instalações elétricas, sistemas de medição e de instrumentação, de acionamentos de máquinas, de iluminação, de proteção contra descargas atmosféricas e de aterramento. Além disso, elabora projetos e estudos de conservação e de eficientização de energia e utilização de fontes alternativas e renováveis. </p>
+              <p class="text-justify">Coordena e supervisiona equipes de trabalho, realiza estudos de viabilidade técnico-econômica, executa e fiscaliza obras e serviços técnicos; e efetua vistorias, perícias e avaliações, emitindo laudos e pareceres. Em suas atividades, considera a ética, a segurança, a legislação e os impactos ambientais.</p> 
+              <h9 class="font-weight-bold">TEMAS ABORDADOS NA FORMAÇÃO</h9>
+              <p class="text-justify">Atendidos os conteúdos do núcleo básico da Engenharia, os conteúdos profissionalizantes são: Eletricidade; Circuitos Elétricos e Lógicos; Conversão de Energia; Eletromagnetismo; Eletrônica Analógica e Digital; Instrumentação EletroEletrônica; Materiais Elétricos; Modelagem; Análise e Simulação de Sistemas; Sistemas de Potência; Instalações Elétricas; Máquinas Elétricas e Acionamentos; Matriz Energética; Eficiência Energética; Qualidade de Energia.</p> 
+              <h9 class="font-weight-bold">AREAS DE ATUAÇÃO</h9> 
+              <p class="text-justify">O Engenheiro Eletricista é habilitado para trabalhar em concessionárias de energia nos setores de geração, transmissão ou distribuição; em empresas de automação e controle, atendendo ao mercado industrial e aos sistemas de automação predial; em projetos, manutenção e instalações industriais, comerciais e prediais, atendendo às necessidades de implantação, funcionamento, manutenção e operação dos sistemas; na definição do potencial energético de bacias hidrográficas, eficientização de sistemas energéticos, conservação de energia, fontes alternativas e renováveis de energia; com simulação, análise e emulação de grandes sistemas por computador; na fabricação e na aplicação de máquinas e equipamentos elétricos.</p>
+              <h9 class="font-weight-bold">INFRAESTRUTURA RECOMENDADA</h9>
+              <p class="text-justify">Laboratório de: Eletricidade e Circuitos; Máquinas Elétricas e Acionamentos; Eletrônica; Informática; Eficiência Energética, Energias Renováveis e Alternativas; Sistemas de Potência.</p> 
+              <h9 class="font-weight-bold">LEGISLAÇÃO PERTINENTE</h9> 
+              <p>Lei 5.194/66.</p>
+              <p>Decisão Normativa Confea 57/1995.</p>
+              <p>Resolução CNE/CES 11/2002.</p>
+              <p class="text-right">Disponível em: (<a class="badge badge-warning" href="http://portal.mec.gov.br/dmdocuments/referenciais.pdf" target="_blank">Referências Nacionais do Curso de Engenharia</a>).</p>
+              <h5 class="font-weight-bold text-justify">PARTICULARIDADES DO CURSO DE GRADUAÇÃO EM ENGENHARIA ELÉTRICA OFERTADO NA UFPE</h5> 
+              <p>Vinculação: Departamento de Engenharia Elétrica (DEE).</p>
+              <p>Localização do Curso: Centro de Tecnologia e Geociências (CTG).</p>
+              <p>Vagas oferecidas no Vestibular: 30 na 1a Entrada e 30 na 2a Entrada.</p>
+              <p>Turno(s): Manhã/Tarde.</p>
+              <p>Carga Horária (horas): 3660h.</p>
+              <p>Duração do Curso: Mínima – 10 Semestres / Máxima – 18 Semestres.</p>
+              <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/engenharia_eletrica_perfil_4404.pdf/66acaf19-99ad-40ba-a183-2cbee04a0313" target="_blank">Componentes Curriculares.</a></p>
+              <p class="text-right"><a class="badge badge-warning" href="https://www.ufpe.br/documents/39483/1561061/GradeEletrica_2018.pdf/63301729-f1a0-4977-b763-78922cb27a75" target="_blank">Estrutura Curricular.</a></p>
+              <p class="text-right">Modelo para elaboração do relatório de estágio curricular.</p>
+              <p class="text-right">Plano de acompanhamento para Estágio curricular (OBRIGATÓRIO).</p>
+              <p class="text-right">Plano de atividades para Estágio curricular (OBRIGATÓRIO).</p>
+              <p class="text-right">Plano de atividades para Estágio curricular (NÃO OBRIGATÓRIO).</p>
+              <div class="row"> <!-- div com os botões de exibir/ocultar -->
+                <button id="btn-ocultar-fim1" class="btn btn-sm btn-secondary ml-3 mb-2" type="button">Oculta detalhes &raquo;</button> 
+              </div>
+            </div> <!-- div oculta/reaparece -->
+          </div> <!-- container - section1.2 -->
+        <!-- FIM DA SECAO 1.2 GRADUACAO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </div> <!-- container - section1 -->
+  </div>
+<!-- FIM - GRADUAÇÃO  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SOBRE              + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SOBRE              + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SOBRE              + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SOBRE              + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SOBRE              + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <!-- PARALAX 2 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <div class="parallax" style="background-image: url('./assets/img/background_2.jpg');"></div>
+  <div class="parallax group-index" style="background-image: url('./assets/img/background_2.jpg');"></div>
   <!-- PARALAX 2 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <!-- x -->
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- SECAO 2 - SOBRE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <div class="container-fluid col-md-10 offset-md-1 text-left"> <!-- container-fluid section2-->
-    <div id="section2" class="jumbotron myjumbotron mt-3"> <!-- jumbotron section2-->
-      <h1>Sobre</h1>
-      <p>Informações institucionais sobre o DA-DEE-UFPE.</p>
-    </div> <!-- jumbotron section2-->
-    <div class="container-fluid col-md-10 offset-md-1"> <!-- container section2-->
-      <p class="text-justify">O Diretório Acadêmico de Engenharia Elétrica e Engenharia de Controle e Automação (DA-DEE) da Universidade Federal de Pernambuco (UFPE) é uma associação civil, autônoma (não subordinada), sem finalidade econômica ou lucrativa, fundada para a representatividade dos estudantes de nível superior dos cursos de Engenharia de Controle e Automação e Engenharia Elétrica.</p>
-      <p class="text-justify">O Estatuto e Regimento Interno da UFPE (publicados no Boletim Ofical UFPE em V.53, N.º 067 - Especial, p. 1-60, em 25.06.2019) reconhecem a autonomia, representatividade e participação estudantil, sendo garantidos institucionalmente o direito a voz e voto nos órgãos colegiados da Universidade e suas unidades acadêmicas.</p>
-      <p class="text-justify">A Lei Federal n.º 7.395/85, editada em 31.10.1985 e publicada em 04.11.1985 no Diário Oficial da União, garante a representação estudantil através de associação estudantil nacional (União Nacional dos Estudantes - UNE), associações estaduais (Uniões Estaduais dos Estudantes - UEEs), Diretórios Centrais de Estudantes (DCEs), Diretórios Acadêmicos (DAs) e Centros Acadêmicos (CAs).</p>
-      <p class="text-justify">O DA-DEE possui sua função social, é participante do Movimento Estudantil Brasileiro, sendo uma instituição livre para o exercício da cidadania que busca da melhoria da condição dos acadêmicos dos cursos de Engenharia de Controle e Automação e Engenharia Elétrica da UFPE.</p>
-      <p class="text-justify">A gestão do DA-DEE está estruturada internamente realizando atividades de Administratição, Assuntos Acadêmicos, Financeiro, Marketing e TI. Esta divisão tem por finalidade a distribuição das atividades e atribuições democratizando a participação dos membros do Diretorio Acadêmico, objetivando atender as necessidades de representatividade dos acadêmicos dos cursos de Engenahria de Controle e Automação e Engenharia Elétrica da UFPE.</p>
-    </div> <!-- container section2-->
-  </div> <!-- container-fluid section2-->
-  <!-- PARALAX 3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <div class="group-index" id="section-sobre">
+    <div class="container-fluid col-md-10 offset-md-1 text-left "> <!-- container-fluid section2-->
+      <div class="jumbotron myjumbotron mt-3"> <!-- jumbotron section2-->
+        <h1>Sobre</h1>
+        <p>Informações institucionais sobre o DA-DEE-UFPE.</p>
+      </div> <!-- jumbotron section2-->
+      <div class="container-fluid col-md-10 offset-md-1"> <!-- container section2-->
+        <p class="text-justify">O Diretório Acadêmico de Engenharia Elétrica e Engenharia de Controle e Automação (DA-DEE) da Universidade Federal de Pernambuco (UFPE) é uma associação civil, autônoma (não subordinada), sem finalidade econômica ou lucrativa, fundada para a representatividade dos estudantes de nível superior dos cursos de Engenharia de Controle e Automação e Engenharia Elétrica.</p>
+        <p class="text-justify">O Estatuto e Regimento Interno da UFPE (publicados no Boletim Ofical UFPE em V.53, N.º 067 - Especial, p. 1-60, em 25.06.2019) reconhecem a autonomia, representatividade e participação estudantil, sendo garantidos institucionalmente o direito a voz e voto nos órgãos colegiados da Universidade e suas unidades acadêmicas.</p>
+        <p class="text-justify">A Lei Federal n.º 7.395/85, editada em 31.10.1985 e publicada em 04.11.1985 no Diário Oficial da União, garante a representação estudantil através de associação estudantil nacional (União Nacional dos Estudantes - UNE), associações estaduais (Uniões Estaduais dos Estudantes - UEEs), Diretórios Centrais de Estudantes (DCEs), Diretórios Acadêmicos (DAs) e Centros Acadêmicos (CAs).</p>
+        <p class="text-justify">O DA-DEE possui sua função social, é participante do Movimento Estudantil Brasileiro, sendo uma instituição livre para o exercício da cidadania que busca da melhoria da condição dos acadêmicos dos cursos de Engenharia de Controle e Automação e Engenharia Elétrica da UFPE.</p>
+        <p class="text-justify">A gestão do DA-DEE está estruturada internamente realizando atividades de Administratição, Assuntos Acadêmicos, Financeiro, Marketing e TI. Esta divisão tem por finalidade a distribuição das atividades e atribuições democratizando a participação dos membros do Diretorio Acadêmico, objetivando atender as necessidades de representatividade dos acadêmicos dos cursos de Engenahria de Controle e Automação e Engenharia Elétrica da UFPE.</p>
+      </div> <!-- container section2-->
+    </div> <!-- container-fluid section2-->
+  </div>
+<!-- FIM - SOBRE      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+ <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       PARCEITOS          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       PARCEITOS          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       PARCEITOS          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       PARCEITOS          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       PARCEITOS          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<div class="group-parceiros" id="section-parceiros" style="display: none">
+ <div class="container-fluid col-md-10 offset-md-1 group-parceiros" id="section-parceiros">
+  <div class="jumbotron bg-warning mytitle"> <!-- jumbotron - PARCEIROS - título DA-DEE -->
+    <div class="d-flex">
+      <div class="col">
+       <h1>Parceiros</h1>
+        <p class="font-weight-bold">Parceiros do DADEE.</p>
+      </div>
+      <div class="col text-right">
+        <h4 class="text-muted">DA-DEE UFPE</h4>
+      </div>
+    </div>
+  </div> <!-- jumbotron - PARCEIROS - título DA-DEE -->
+</div>
+  <!-- TITULO xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
   <div class="parallax" style="background-image: url('./assets/img/background_4.jpg');"></div>
+  <!-- IMAGEM 1 PARALAX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <!-- x -->
+ <div class="container-fluid col-md-10 offset-md-1 text-left  mb-5 mt-5"> <!-- container-fluid PARCEITOS -->
+    <div class="container-fluid col-md-10 offset-md-1"> <!-- container-fluid PARCEITOS -->
+      <h3>Watt Consultoria</h3>
+      <p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <p class="text-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div> <!-- container-fluid PARCEITOS -->
+      <div class="container-fluid col-md-10 offset-md-1"> <!-- container-fluid PARCEITOS -->
+      <h3>ConnectON</h3>
+      <p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <p class="text-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div> <!-- container-fluid PARCEITOS -->
+      <div class="container-fluid col-md-10 offset-md-1"><!-- container-fluid PARCEITOS -->
+      <h3>capibarib-e race</h3>
+      <p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <p class="text-justify">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div> <!-- container-fluid PARCEIROS -->
+  </div> <!-- container-fluid PARCEIROS -->
+</div>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->   
+<!-- FIM - PARCEITOS  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       CONTATOS           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       CONTATOS           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       CONTATOS           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       CONTATOS           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       CONTATOS           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <!-- PARALAX 3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <div class="parallax group-index" style="background-image: url('./assets/img/background_4.jpg');"></div>
   <!-- PARALAX 3 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- MAPA, ENDEREÇO E FORM  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <div class="container-fluid col-md-10 offset-md-1 text-center mb-3" id="section3"> <!-- container section3 contato-->
+  <div class="container-fluid col-md-10 offset-md-1 text-center mb-3 group-index" id="section3"> <!-- container section3 contato-->
     <div id="section3" class="jumbotron myjumbotron text-left mt-3">
       <h1>Contatos</h1>
       <p>Apresentamos abaixo os canais de acesso ao DA-DEE-UFPE.</p>
@@ -342,10 +595,19 @@
       </div>
     </div>
   </div>
-  </div>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->     
-  <!-- FOOTER  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FIM - CONTATOS   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FOOTER             + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FOOTER             + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FOOTER             + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FOOTER             + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FOOTER             + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
   <footer class="footer mt-auto py-2"> <!-- footer - barra do rodapé -->
     <div class="d-flex justify-content-center text-center"> <!-- ícones dos links para redes sociais -->
       <a class="alert-link mybuttonlinksfooter" href="https://www.facebook.com/DADEEUFPE" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -356,7 +618,19 @@
        <i class="fa fa-copyright" aria-hidden="true"></i> 2020 | DA-DEE
     </div> <!-- copyright -->  
   </footer> <!-- footer - barra do rodapé -->
-<!-- SCRIPTS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FIM - FOOTER  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SCRIPTS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SCRIPTS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SCRIPTS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SCRIPTS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       SCRIPTS            + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- jQuery library -->
 <script   src="./assets/js/jquery.min.js"     ></script>
 <!-- funções elaboradas para esta página (index.html) -->
@@ -365,9 +639,19 @@
 <script   src="./assets/js/popper.min.js"     ></script>
 <!-- Latest compiled JavaScript -->
 <script   src="./assets/js/bootstrap.min.js"  ></script>
-<!-- FIM - FOOTER  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- FIREBASE            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FIM - SCRIPT  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FIREBASE           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FIREBASE           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FIREBASE           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FIREBASE           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--       FIREBASE           + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!--                          + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- Carregamento do Módulo Inicial de Conexão com o Banco de Dados       -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- ATENÇÃO: MANTER AS DUAS TAGS ABAIXO NO FINAL DA TAG 'BODY' DA PÁG.   -->
@@ -389,6 +673,6 @@
 <!-- firebase-app and firebase-firestore - initialization  -->
 <script src="./assets/js/firebase/initialize.js"></script>
 <script src="./assets/js/firebase/sendmessage.js"></script>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- FIM - FIREBASExxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </body> <!-- FIM - BODY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </html>
