@@ -6,8 +6,8 @@
 $(document).ready(function(){
   // -----------------------------------------------------------
     // Status inicial da seção graduação
-  $("#sessao, #sessao1, #btn-ocultar, #btn-ocultar1, #btn-ocultar-fim, #btn-ocultar-fim1, .group-blog, .group-documentos").hide();
-  $("#comentario, #btn-exibir, #btn-exibir1, #comentario1").fadeIn();
+  $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
+  $("#btn-exibir, #btn-exibir1, #comentario, #comentario1").fadeIn();
   
   // -----------------------------------------------------------
   // ## HOME // PÁGINA INICIAL
@@ -16,7 +16,7 @@ $(document).ready(function(){
   $("#home").click(function()
   {
     $(".group-index").fadeIn();
-    $(".group-blog").hide();
+    $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
     $([document.documentElement, document.body]).animate({ scrollTop: $("body").offset().top - 70 }, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
     $("#link-home").addClass("active"); //Add "active" class to selected tab
@@ -28,7 +28,7 @@ $(document).ready(function(){
   // rola a tela para a seção 'graduação'
   $("#graduacao").click(function()
   {
-    $(".group-blog, .group-documentos, .group-eventos, .group-parceiros").hide();
+    $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
     $(".group-index").fadeIn();
     $([document.documentElement, document.body]).animate({ scrollTop: $("#section-graduacao").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
@@ -41,9 +41,9 @@ $(document).ready(function(){
   // rola a tela para a seção 'contatos'
   $("#blog").click(function()
   {
-    $(".group-index, .group-documentos, .group-eventos, .group-parceiros").hide();
+    $(".group-index, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
     $(".group-blog").fadeIn();
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#sectionblog").offset().top - 70}, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-blog").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
     $("#link-blog").addClass("active"); //Add "active" class to selected tab
   });
@@ -54,7 +54,7 @@ $(document).ready(function(){
   // rola a tela para a seção 'parceiros'
   $("#parceiros").click(function()
   {
-    $(".group-index, group-documentos, .group-eventos, .group-blog").hide();
+    $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-index").hide();
     $(".group-parceiros").fadeIn();
     $([document.documentElement, document.body]).animate({ scrollTop: $("#section-parceiros").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
@@ -67,7 +67,7 @@ $(document).ready(function(){
   // rola a tela para a seção 'documentos'
   $("#documentos").click(function()
   {
-    $(".group-index, .group-blog, .group-eventos, .group-parceiros").hide();
+    $(".group-blog, .group-index, .group-eventos, .group-login, .group-parceiros").hide();
     $(".group-documentos").fadeIn();
     $([document.documentElement, document.body]).animate({ scrollTop: $("#section-documentos").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
@@ -80,7 +80,7 @@ $(document).ready(function(){
   // rola a tela para a seção 'eventos'
   $("#eventos").click(function()
   {
-    $(".group-index, .group-blog, .group-documentos, .group-parceiros").hide();
+    $(".group-blog, .group-documentos, .group-index, .group-login, .group-parceiros").hide();
     $(".group-eventos").fadeIn();
     $([document.documentElement, document.body]).animate({ scrollTop: $("#section-eventos").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
@@ -93,11 +93,27 @@ $(document).ready(function(){
   // rola a tela para a seção 'contatos'
   $("#contatos").click(function()
   {
-    $(".group-blog, .group-eventos, .group-parceiros, .group-documentos").hide();
+    $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
     $(".group-index").fadeIn();
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section3").offset().top -70 }, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-contatos").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
     $("#link-contatos").addClass("active"); //Add "active" class to selected tab
+  });
+  // -----------------------------------------------------------
+    // ## TERMS // TERMOS DE USO
+  // scroll to 'terms'
+  // rola a tela para a seção 'termos de uso'
+  $("#terms").click(function()
+  {
+    $(".group-terms, #section-terms").slideDown();
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-terms").offset().top - 70}, 1000);
+  });
+  // button hide (in the top and bottom)
+  // botão ocultar (o botão de cima e o debaixo)
+  $("#btn-ocultar-bottom-terms, #btn-ocultar-top-terms").click(function()
+  {
+    $(".group-terms").slideUp(1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $().offset().top - 1500}, 1000);
   });
   //
   // -----------------------------------------------------------
@@ -106,11 +122,24 @@ $(document).ready(function(){
   // rola a tela para a seção 'sobre'
   $("#sobre").click(function()
   {
-    $(".group-blog, .group-eventos, .group-parceiros, .group-documentos").hide();
+    $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
     $(".group-index").fadeIn();
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-sobre").offset().top -70 }, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-sobre").offset().top - 70}, 1000);
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
     $("#link-sobre").addClass("active"); //Add "active" class to selected tab
+  });
+  // -----------------------------------------------------------
+  // ## LOGIN // LOGIN
+  // scroll to 'login'
+  // rola a tela para a seção 'login'
+  $("#login").click(function()
+  {
+    $(".group-blog, .group-eventos, .group-parceiros, .group-documentos, .group-index").fadeOut() +
+    $(".group-login").slideDown() +
+    $("#navbar li a.active").removeClass("active") + //Remove any "active" class
+    $("#link-login").addClass("active") + //Add "active" class to selected tab
+    
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-login").offset().top - 70}, 1000);
   });
   // -----------------------------------------------------------
   // ## GRADUAÇÃO UNIVERSITÁRIA // UNIVERSITY GRADUATE
@@ -131,7 +160,7 @@ $(document).ready(function(){
   // Hide displayed paragraphs e button
   $("#btn-ocultar, #btn-ocultar-fim").click(function()
   {
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section11").offset().top -70 }, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-graduacao").offset().top -70 }, 1000);
     $("#sessao").hide(500);
     $("#btn-ocultar").hide();
     $("#btn-ocultar-fim").hide();
@@ -144,16 +173,10 @@ $(document).ready(function(){
   $("#graduacaoeca").click(function() {
     $(".group-index").fadeIn();
     $(".group-blog").hide();
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section11").offset().top -70 }, 1000);
-    $("#sessao").hide();
-    $("#sessao1").hide();
-    $("#comentario").fadeIn();
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-graduacao").offset().top -70 }, 1000);
+    $("#sessao, #sessao1, #btn-ocultar, #btn-ocultar1, #btn-ocultar-fim, #btn-ocultar-fim1").hide();
     $("#comentario1").show(); 
-    $("#btn-ocultar").hide();
-    $("#btn-ocultar1").hide();
-    $("#btn-ocultar-fim").hide();
-    $("#btn-ocultar-fim1").hide();
-    $("#btn-exibir").fadeIn();
+    $("#btn-exibir, #comentario").fadeIn();
     $("#btn-exibir1").fadeIn();
   });
   // -----------------------------------------------------------
@@ -162,12 +185,10 @@ $(document).ready(function(){
   // e oculta botões ocultar e faz scroll para o topo da seção
   $("#btn-ocultar1, #btn-ocultar-fim1").click(function()
   {
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section11").offset().top -70 }, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-graduacao").offset().top -70 }, 1000);
     $("#sessao1").hide(500);
-    $("#btn-ocultar1").hide();
-    $("#btn-ocultar-fim1").hide();
-    $("#btn-exibir1").fadeIn();
-    $("#comentario1").fadeIn();
+    $("#btn-ocultar1, #btn-ocultar-fim1").hide();
+    $("#btn-exibir1, #comentario1").fadeIn();
   });
   // -------------------------------------------------------------
   // Graduação em Eng Elétrica
@@ -188,7 +209,7 @@ $(document).ready(function(){
   {
     $(".group-index").fadeIn();
     $(".group-blog").hide();
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section11").offset().top -70 }, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-graduacao").offset().top -70 }, 1000);
     $("#sessao").hide();
     $("#sessao1").hide();
     $("#comentario").fadeIn();
