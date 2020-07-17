@@ -105,7 +105,7 @@ $(document).ready(function(){
   // rola a tela para a seção 'termos de uso'
   $("#terms").click(function()
   {
-    $(".group-terms, #section-terms").slideDown();
+    $(".group-terms, #section-terms").slideToggle();
     $([document.documentElement, document.body]).animate({ scrollTop: $("#section-terms").offset().top - 70}, 1000);
   });
   // button hide (in the top and bottom)
@@ -113,7 +113,7 @@ $(document).ready(function(){
   $("#btn-ocultar-bottom-terms, #btn-ocultar-top-terms").click(function()
   {
     $(".group-terms").slideUp(1000);
-    $([document.documentElement, document.body]).animate({ scrollTop: $().offset().top - 1500}, 1000);
+    $([document.documentElement, document.body]).animate({ scrollTop: $().offset().top - 500}, 1000);
   });
   //
   // -----------------------------------------------------------
