@@ -5,9 +5,13 @@
 //
 $(document).ready(function(){
   // -----------------------------------------------------------
-    // Status inicial da seção graduação
+  // Status inicial da seção graduação
   $(".group-blog, .group-documentos, .group-eventos, .group-login, .group-parceiros").hide();
   $("#btn-exibir, #btn-exibir1, #comentario, #comentario1").fadeIn();
+
+  // -----------------------------------------------------------
+  // Ativando o popover
+  $('[data-toggle="mypopover"]').popover();
   
   // -----------------------------------------------------------
   // ## HOME // PÁGINA INICIAL
