@@ -3,6 +3,22 @@
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //
 //
+// -----------------------------------------------------------
+// Função em Javascript que exibe e oculta o input d tipo password
+function myTogglePassword(){
+  var pass = document.getElementById("mypassword");
+  var xeye = document.getElementById("eye");
+  if (pass.type == "password")
+  {
+    pass.type = "text";
+    xeye.className = "fa fa-eye-slash text-muted";
+  } else
+  {
+    pass.type = "password";
+    xeye.className = "fa fa-eye text-muted";
+  };
+}
+// -----------------------------------------------------------
 $(document).ready(function(){
   // -----------------------------------------------------------
   // Status inicial da seção graduação
@@ -132,19 +148,7 @@ $(document).ready(function(){
     $("#navbar li a.active").removeClass("active"); //Remove any "active" class
     $("#link-sobre").addClass("active"); //Add "active" class to selected tab
   });
-  // -----------------------------------------------------------
-  // ## LOGIN // LOGIN
-  // scroll to 'login'
-  // rola a tela para a seção 'login'
-  $("#login").click(function()
-  {
-    $(".group-blog, .group-eventos, .group-parceiros, .group-documentos, .group-index").fadeOut() +
-    $(".group-login").slideDown() +
-    $("#navbar li a.active").removeClass("active") + //Remove any "active" class
-    $("#link-login").addClass("active") + //Add "active" class to selected tab
-    
-    $([document.documentElement, document.body]).animate({ scrollTop: $("#section-login").offset().top - 70}, 1000);
-  });
+ 
   // -----------------------------------------------------------
   // ## GRADUAÇÃO UNIVERSITÁRIA // UNIVERSITY GRADUATE
   // Graduação em Eng de Controle e Automação
